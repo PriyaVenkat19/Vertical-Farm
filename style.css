@@ -1,16 +1,23 @@
 .top{
     background-color: black;
     color:white;
-    height:500px;
+    height:700px;
     padding-top: 20px;
     text-align: center;
-    
+    font-family:sans-serif;
+    overflow-x: hidden;
+    overflow-y:scroll;
+}
+.bottom{
+  background-color: white;
+  height:200px;
 }
 a:link {
+  position:relative;
   color:white;
   background-color: transparent;
   text-decoration: none;
-  padding-top: 20px;
+ bottom: 98px;
 
 }
 
@@ -22,3 +29,81 @@ a:hover {
 body{
     margin:0px;
 }
+.logo{
+  position: relative;
+  right: 700px;
+  bottom:-10px;
+  background-color: #000;
+}
+#title{
+  position: relative;
+  right: 500px;
+  bottom: 57px;
+}
+p{
+  position: relative;
+  font-size: 35px;
+  text-align: left;
+  left:100px;
+}
+h5{
+  position: relative;
+  font-size: 35px;
+  text-align: left;
+  left:120px;
+}
+#image{
+  position: relative;
+  bottom:150px;
+  left:250px;
+  border-radius:15%;
+}
+.my-button2{
+  position: relative;
+  border-radius: 20px;
+  border: 1px solid #000;
+  padding: 10px 13px;
+  background:khaki;
+  font-size: 1em;
+  left:550px;
+  bottom:10px;
+  cursor:pointer;
+}
+.my-button1{
+  position: relative;
+  border-radius: 20px;
+  border: 1px solid white;
+  padding: 10px 13px;
+  background:#000;
+  font-size: 1em;
+  left:530px;
+  bottom:10px;
+  cursor:pointer;
+  color:white;
+}
+.my-button3{
+  position: relative;
+  border-radius: 20px;
+  border: 1px solid #000;
+  padding: 10px 13px;
+  background:khaki;
+  font-size: 1em;
+  right:535px;
+  bottom:70px;
+  cursor:pointer;
+}
+.my-button4{
+  position: relative;
+  border-radius: 20px;
+  border: 1px solid white;
+  padding: 10px 13px;
+  background:#000;
+  font-size: 1em;
+  right:500px;
+  bottom:70px;
+  cursor:pointer;
+  color:white;
+}
+
+
+
